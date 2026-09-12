@@ -1,0 +1,37 @@
+name: stockvision
+description: "StockVision — Your Business. One View. Smarter Decisions."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+  # State management
+  flutter_riverpod: ^2.5.1
+
+  # Networking
+  dio: ^5.4.3
+
+  # Local storage (session persistence, theme preference)
+  shared_preferences: ^2.2.3
+
+  # Charts
+  fl_chart: ^0.68.0
+
+  # UI helpers
+  google_fonts: ^6.2.1
+  intl: ^0.19.0
+  shimmer: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
